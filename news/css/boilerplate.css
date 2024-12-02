@@ -1,0 +1,153 @@
+:root {
+    --c-black80: #121221;
+    --c-black60: #444444;
+    --c-black40: #6C6C6C;
+    --c-black20: #949494;
+    --c-white: #F8F8F8;
+    --c-body: #FDFDFD;
+
+    --ff-roboto: 'Roboto', sans-serif;
+    --ff-playfair-display: 'Playfair Display', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: var(--ff-playfair-display);
+    color: var(--c-black80);
+    background-color: var(--c-body);
+    min-height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-black80);
+}
+
+.wrapper {
+    width: min(73.125rem, 100% - 4.375rem);
+    margin-inline: auto;
+}
+
+section {
+    margin-block: 3.5rem;
+}
+
+@media (max-width:75em) {
+    section {
+        margin-block: 3rem;
+    }
+}
+
+@media (max-width:30em) {
+    section {
+        margin-block: 2.5rem;
+    }
+}
+
+.content {
+    margin-top: 1.5rem;
+}
+
+@media (max-width:30em) {
+    .content {
+        margin-top: 1rem;
+    }
+}
+
+.header {
+    margin-top: 2rem;
+}
+
+.footer {
+    margin-top: 5rem;
+}
+
+/* 
+ --TYPOGRAPHY
+*/
+
+h1,
+h2,
+small {
+    font-family: var(--ff-roboto);
+    color: var(--c-black80);
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-size: clamp(2.25rem, 1.9859154929577465rem + 1.1267605633802815vw, 3rem);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.2359154929577465rem + 1.1267605633802815vw, 2.25rem);
+    font-weight: bold;
+}
+
+p {
+    color: var(--c-black60);
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+
+small {
+    color: var(--c-black20);
+    font-size: 0.5rem;
+    font-size: clamp(0.5rem, 0.4119718309859155rem + 0.3755868544600939vw, 0.75rem);
+    font-weight: normal;
+}
+
+.br{
+    border: 1px solid red;
+}
+
+.newscard__title {
+    color: var(--c-black80);
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.823943661971831rem + 0.7511737089201878vw, 1.5rem);
+    font-weight: bold;
+}
+
+.newscard__title:hover {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+
+.logo {
+    color: var(--c-black80);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero__card__title {
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.647887323943662rem + 1.5023474178403755vw, 2rem);
+    color: var(--c-white);
+}
+
+.hero__card__title:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer__copytext {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--c-black20);
+}

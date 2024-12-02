@@ -1,0 +1,15 @@
+.header {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo span {
+    display: inline;
+    color: var(--c-white);
+    background-color: var(--c-black80);
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+}

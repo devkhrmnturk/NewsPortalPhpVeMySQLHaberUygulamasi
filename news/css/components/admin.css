@@ -1,0 +1,62 @@
+
+@import url(../boilerplate.css);
+
+body {
+background: var(--c-white);
+}
+.backarrow{
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.showall {
+    max-height: 600px;
+    overflow: auto;
+}
+
+.newsbar {
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin-block: 4rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    max-height: 100px;
+    background-color: var(--c-body);
+    gap: 1rem;
+}
+
+.form > * {
+    display: block;
+}
+
+form {
+    margin-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    background: var(--c-body);
+    max-width: 500px;
+    padding: 1.5rem;
+}
+form > *:not(:last-child) {
+    text-align: start;
+    width: 100%;
+}
+
+form input {
+    background-color: var(--c-white);
+    border: 1px solid;
+    outline: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+form textarea {
+    max-width: inherit;
+}
+
+.container {
+    display: flex;
+}
+

@@ -1,0 +1,87 @@
+.for-desktop{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 1.875rem;
+}
+
+.hero__card__text {
+    max-height: 400px !important;
+    overflow: auto;
+}
+
+.scroll-hide {
+    scrollbar-width: none;
+}
+
+.hero__card {
+    height: 100%;
+    min-height: 25rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    color: var(--c-white);
+
+}
+
+@media (max-width:75em) {
+    .for-desktop {
+        display: block;
+    }
+    .hero__card {
+        min-height: 18.0625rem;
+    }
+    .hero__card__text{
+        display: none;
+    }
+}
+
+@media (max-width: 30em) {
+    .hero__card {
+        padding: 0.75rem;
+        min-height: 12.5rem;
+    }
+}
+
+
+.hero__card__title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--c-white);
+}
+
+.hero__card__footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width:75em) {
+    .hero__card__footer {
+        margin-top: 0.5rem;
+    }
+}
+
+.hero__card__footer>* {
+    color: var(--c-white);
+}
+
+@media (min-width:30.0625em) {
+    .hero__card__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:75em) {
+    .hero__card__title {
+        font-size: 2rem;
+    }
+
+    .hero__card {
+        height: 25rem;
+    }
+}
