@@ -34,11 +34,11 @@ https://www.figma.com/community/file/1012997791904715053
 
 
 ## kurulum 
-1.xampp kurulu olmalıdır. Apache ve MySQL bağlantılarının açık olduğundan emin olun.
-2.htdocs klasörüne projeyi ekleyin. ('sunucunuza yukleyin')
-3.projede ana dizindeki, newsportaldb.sql veri tabanı dosyasını, (tarayıcınızda, localhost/phpmyadmin/ yolundan erişebilirsiniz) veri tabanınıza içeri aktarın.
-4.proje ana dizindeki, db-connect.php dosyası veri tabanı bilgilerini barındırır. 
-5.tarayıcınızda localhost/news/ yolunda projeyi görüntüleyin.
+- 1.xampp kurulu olmalıdır. Apache ve MySQL bağlantılarının açık olduğundan emin olun.
+- 2.htdocs klasörüne projeyi ekleyin. ('sunucunuza yukleyin')
+- 3.projede ana dizindeki, newsportaldb.sql veri tabanı dosyasını, (tarayıcınızda, localhost/phpmyadmin/ yolundan erişebilirsiniz) veri tabanınıza içeri aktarın.
+- 4.proje ana dizindeki, db-connect.php dosyası veri tabanı bilgilerini barındırır. 
+- 5.tarayıcınızda localhost/news/ yolunda projeyi görüntüleyin.
 
 ## veri tabanı yapısı
 
