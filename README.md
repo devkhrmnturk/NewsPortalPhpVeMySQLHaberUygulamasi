@@ -1,7 +1,7 @@
 # NewsPortalPhpVeMySQLHaberUygulamasi
  php,mysql,html,css xampp ve Figma tasarımı kullanarak, veri tabanındanından alınan haberleri görüntüleyen, veri tabanına haber ekleme ve silme işlemlerini gerçekleştiren web sitesi.
 
-## kullandığım figma tasarımı
+## figma tasarımı
 
 https://www.figma.com/community/file/1012997791904715053
 
