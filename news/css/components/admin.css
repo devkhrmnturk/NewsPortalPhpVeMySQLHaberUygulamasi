@@ -25,6 +25,8 @@ background: var(--c-white);
     gap: 1rem;
 }
 
+
+
 .form > * {
     display: block;
 }
@@ -60,3 +62,12 @@ form textarea {
     display: flex;
 }
 
+@media (max-width:480px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+#baslik {
+    display: grid; grid-template-columns: repeat(6,1fr); border: 1px solid; justify-content: space-between;
+}

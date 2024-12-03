@@ -52,6 +52,10 @@
         justify-content: space-between;
     }
 
+    .hero__card__title,.hero__card__footer{
+        text-shadow: 1px 1px 1px var(--c-black80);
+    }
+
     </style>
 </head>
 <body>
@@ -81,7 +85,7 @@
                         echo <<<ETC
                         <article 
                             class="content hero__card "
-                            style="background-image: url(img/{$row["haberImg"]});"
+                            style="background-image: url('img/{$row["haberImg"]}');"
                         >
                             <a 
                             href="haber.php?id={$row["haberId"]}" 
