@@ -25,11 +25,11 @@ https://www.figma.com/community/file/1012997791904715053
 
 ### yonet sayfası
 
-![Ekran görüntüsü 2024-12-03 020347](https://github.com/user-attachments/assets/8199dd59-5c7c-4264-a8b5-29b2e6ec8b0f)
+![Ekran görüntüsü 2024-12-03 173120](https://github.com/user-attachments/assets/347ca4a1-e56f-4366-9359-7718c437206a)
 
 ### haber ekleme ve silme formu
 
-![Ekran görüntüsü 2024-12-03 020359](https://github.com/user-attachments/assets/e4dea0db-bfe6-4b92-8f12-f2768f02e355)
+![Ekran görüntüsü 2024-12-03 173157](https://github.com/user-attachments/assets/f16c82c0-c04a-4dff-a391-ecf903bb6087)
 
 
 
@@ -50,3 +50,7 @@ https://www.figma.com/community/file/1012997791904715053
 - haberDate DATETIME (default current_timestamp)
 - haberSource VARCHAR (not null)
 - haberImg TEXT (not null)
+
+### hata durumunda
+
+xampp ten apache ve msqyl'i kapatıp yeniden açmanız problemi çözebilir.
