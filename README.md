@@ -53,4 +53,4 @@ https://www.figma.com/community/file/1012997791904715053
 
 ### hata durumunda
 
-xampp ten apache ve msqyl'i kapatıp yeniden açmanız problemi çözebilir.
+xampp ten apache ve mysql'i kapatıp yeniden açmanız problemi çözebilir.
